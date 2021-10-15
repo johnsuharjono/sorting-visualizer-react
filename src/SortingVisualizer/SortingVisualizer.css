@@ -1,0 +1,43 @@
+.visualizer-container {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+
+.array-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 500px;
+}
+
+.array-bar {
+  background-color: #334756;
+  margin: 1px;
+  border-radius: 10%;
+}
+
+.features-button {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/* .app-button {
+  border: 0.4em;
+  color: rgb(121, 245, 245);
+  background-color: transparent;
+  cursor: pointer;
+  margin: auto;
+}
+
+.app-button:hover {
+  color: rgb(16, 218, 43);
+} */

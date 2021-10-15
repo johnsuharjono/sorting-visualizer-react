@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #1c0c5b;
+}
+
+.logo-img {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  padding-right: 15px;
+  fill: rgb(255, 255, 255);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.reset-array {
+  margin-left: auto;
+}
