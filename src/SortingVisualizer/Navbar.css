@@ -1,27 +1,24 @@
 .navbar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  background-color: #1c0c5b;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px 30px;
+	background-color: rgb(15 23 42);
+	height: 5vh;
 }
 
 .logo-img {
-  height: 50px;
-  width: 50px;
-  margin: auto;
-  padding-right: 15px;
-  fill: rgb(255, 255, 255);
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	padding-right: 15px;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .reset-array {
-  margin-left: auto;
+	margin-left: auto;
 }

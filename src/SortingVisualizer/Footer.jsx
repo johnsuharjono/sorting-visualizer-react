@@ -1,6 +1,7 @@
 import { Button } from "@material-ui/core";
 import "./Footer.css";
 import Grid from "@material-ui/core/Grid";
+import React from "react";
 
 const Footer = (props) => {
   const resetArray = props.resetArray;

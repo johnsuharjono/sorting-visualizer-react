@@ -1,10 +1,7 @@
 .footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  background-color: #1c0c5b;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgb(15 23 42);
 }
