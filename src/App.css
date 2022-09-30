@@ -13,3 +13,7 @@ body {
 .MuiSlider-root {
 	color: rgb(219 39 119) !important;
 }
+
+.MuiButton-textPrimary {
+	color: rgb(252 231 243) !important;
+}

@@ -27,8 +27,8 @@ export default function SortingVisualizer() {
 	const [array, setArray] = useState([])
 	const [isSorting, setIsSorting] = useState(false)
 	const [isSorted, setIsSorted] = useState(false)
-	const [lengthArray, setLengthArray] = useState(40)
-	const [delay, setDelay] = useState(8)
+	const [lengthArray, setLengthArray] = useState(30)
+	const [delay, setDelay] = useState(20)
 
 	// eslint-disable-next-line
 	useEffect(resetArray, [lengthArray])
@@ -164,8 +164,8 @@ export default function SortingVisualizer() {
 							value={delay}
 							onChange={handleSpeed}
 							aria-labelledby='continuous-slider'
-							min={2}
-							max={15}
+							min={5}
+							max={30}
 						/>
 					</div>
 
@@ -176,35 +176,11 @@ export default function SortingVisualizer() {
 							value={lengthArray}
 							onChange={handleChange}
 							aria-labelledby='continuous-slider'
-							min={10}
-							max={70}
+							min={20}
+							max={40}
 						/>
 					</div>
 				</div>
-				{/* <Grid
-					container
-					spacing={0}
-					direction='row'
-					justify='center'
-					alignItems='center'
-				>
-					<Grid item xs='1'>
-						<RemoveIcon />
-					</Grid>
-					<Grid item xs='1'>
-						<Slider
-							value={lengthArray}
-							onChange={handleChange}
-							aria-labelledby='continuous-slider'
-							min={10}
-							max={70}
-						/>
-					</Grid>
-					<Grid item xs='1'>
-						<AddIcon />
-					</Grid>
-				</Grid> */}
-
 				<div className='array-container'>
 					{array.map((barHeight, index) => (
 						<div

@@ -9,6 +9,8 @@
 }
 
 .controlPanel {
+	margin: 0 auto;
+	width: 80vw;
 	display: flex;
 	gap: 20px;
 	flex-direction: row;
@@ -17,10 +19,11 @@
 	padding: 10px;
 	color: rgb(252 231 243);
 	font-weight: 600;
+	font-family: Arial;
 }
 
 .controlPanel .slider {
-	width: 200px;
+	width: 150px;
 }
 
 .array-container {
@@ -31,11 +34,11 @@
 	flex-direction: row;
 	justify-content: space-around;
 	width: 80vw;
+	gap: 7px;
 }
 
 .array-bar {
 	background-color: rgb(236 72 153);
-	margin: 1px;
 	border-radius: 100px / 100px;
 }
 
