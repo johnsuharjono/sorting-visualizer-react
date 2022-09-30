@@ -5,18 +5,9 @@ import { getInsertionSortAnimations } from '../SortingAlgorithm/insertionSort'
 import { getSelectionSortAnimations } from '../SortingAlgorithm/selectionSort'
 import { getBubbleSortAnimations } from '../SortingAlgorithm/bubbleSort'
 import { getQuickSortAnimations } from '../SortingAlgorithm/quickSort'
-import { makeStyles } from '@material-ui/core/styles'
 import Slider from '@material-ui/core/Slider'
 import Navbar from './Navbar'
 import Footer from './Footer'
-
-const useStyles = makeStyles({
-	root: {
-		alignContent: 'center',
-		alignItems: 'center',
-		justify: 'center',
-	},
-})
 
 const L_BOUND = 50 // minimum height of the array
 const U_BOUND = 350 // maximum height of the array
