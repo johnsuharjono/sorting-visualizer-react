@@ -142,9 +142,6 @@ export default function SortingVisualizer() {
 		console.log(arr)
 	}
 
-	// for slider
-	const classes = useStyles()
-
 	const handleSpeed = (event, newValue) => {
 		if (isSorting) return
 		setDelay(newValue)
