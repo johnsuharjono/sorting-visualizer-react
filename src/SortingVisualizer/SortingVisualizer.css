@@ -36,7 +36,7 @@
 .array-bar {
 	background-color: rgb(236 72 153);
 	margin: 1px;
-	border-radius: 20%;
+	border-radius: 100px / 100px;
 }
 
 .features-button {
